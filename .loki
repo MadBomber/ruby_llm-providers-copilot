@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+# ruby_llm-providers-copilot — RubyLLM provider driving the GitHub Copilot CLI agent
+
+import_up "repo_dev.loki"
+
+class Tasks
+  @@gem_name ||= "ruby_llm-providers-copilot".freeze
+
+  header "ruby_llm-providers-copilot v#{gem_version} — RubyLLM provider driving the GitHub Copilot CLI agent"
+end
